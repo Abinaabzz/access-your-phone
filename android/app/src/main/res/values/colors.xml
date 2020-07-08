@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mine_shaft">#efc5ca</color>
+
+
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#536DFE</color>
+
+    <color name="colorCorrectLine">#008000</color>
+    <color name="colorNormalLine">#FFFF</color>
+    <color name="colorWrongLine">#FF0000</color>
+
+
+    <color name="colorPrime">#5869AC</color>
+    <color name="colorPrimed">#3A3737</color>
+    <color name="mine">#D2E4F7</color>
+</resources>
