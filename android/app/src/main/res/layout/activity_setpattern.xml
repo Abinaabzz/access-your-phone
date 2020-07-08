@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rad"
+    tools:context=".SetPattern">
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="PCon"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="31dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text=" Please Set your pattern"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Phone number"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColorLink="@color/white"
+        android:textColor="@color/white" />
+
+    <android:com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/patternView"
+        layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        app:aspectRatio="square"
+        app:aspectRatioEnabled="true"
+        app:dotAnimationDuration="150"
+
+
+        app:correctStateColor="@color/colorCorrectLine"
+        app:dotCount="3"
+        app:dotNormalSize="18dp"
+        app:dotSelectedSize="20dp"
+        app:normalStateColor="@color/colorNormalLine"
+        app:pathWidth="8dp"
+        app:wrongStateColor="@color/colorWrongLine"
+        layout_height="280dp"
+        layout_width="280dp"
+        />
+
+
+</LinearLayout>
